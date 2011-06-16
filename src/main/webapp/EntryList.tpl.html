@@ -1,0 +1,17 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="center">
+            <ol class="entries">
+                @Repeat(items=entries,var="entry")
+                <li>
+                    <div class="entry-header"><div class="date">${__page.format(entry.date)}</div>${entry.title}</div>
+                    @ShowIf(entry.hasPicture())
+                    <img src="/ws/picture/${entry.pictureId}" />
+                    <p>${entry.desc}</p>
+                </li>
+            </ol>
+        </div>
+    </body>
+</html>

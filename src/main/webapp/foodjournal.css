@@ -1,0 +1,102 @@
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+* {
+    margin: 0;
+}
+.invisible {
+    display: none;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding:0;
+    background-color:#ffffff;
+    color:#333333;
+}
+h1 {
+    background-color:#666666;
+    color:#ffffff;
+    padding:0 7px 0 5px;
+}
+h1 .user {
+    float:right;
+    font-size:50%;
+}
+h1 .user a {
+    color:#ddddff;
+}
+.collapse-element {
+    display:block;
+}
+form {
+    background-color:#ddddff;
+}
+form ul {
+    padding:10px 0px 10px 5px;
+}
+form ul li {
+    list-style:none outside none;
+}
+form ul li.button-bar {
+    height:23px;
+}
+form ul li .input-wrapper,
+form ul li label {
+    display: table-cell;
+    padding-bottom:6px;
+}
+form ul li label {
+    text-align:right;
+    vertical-align:top;
+    width:100px;
+    font-weight:bold;
+    margin-right:5px;
+    padding:0 7px 0 5px;
+}
+form ul li,
+form ul li label,
+form ul li input {
+    line-height:1.5em;
+}
+form ul li textarea,
+form ul li input {
+    display:block;
+}
+form ul li textarea,
+form ul li input[type="text"] {
+    width:250px;
+}
+form .qq-upload-button,
+form .button,
+form button.button,
+form input[type="button"],
+form input[type="submit"] {
+    background-color:#efefef;
+    background-image:-moz-linear-gradient(center top , #DEDEDE, #FFFFFF);
+    border:1px solid #adadad;
+    color:#144d80;
+    cursor:pointer;
+    font-size:93%;
+    font-weight:bold;
+    margin-left:8px;
+    padding:1px 8px;
+    float:left;
+}
+form .qq-upload-button {
+    width:75px;
+}
+ol.entries {
+    padding:0 7px 0 5px;
+}
+ol.entries li {
+    padding:5px 0 7px;
+    border-bottom:1px solid #adadad;
+}
+ol.entries li .entry-header {
+    font-weight:bold;
+}
+ol.entries li .entry-header .date {
+    color:#cccccc;
+}
+

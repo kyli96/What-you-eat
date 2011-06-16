@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Hello</title>
+    </head>
+    <body>
+        <form action="/entries" method="post">
+            <div class="collapse-element">
+                <ul>
+                    <li><label for="entry.date">Date:</label><div class="input-wrapper"><input name="entry.date" type="text"/></div></li>
+                    <li><label for="entry.title">Title:</label><div class="input-wrapper"><input name="entry.title" type="text"/></div></li>
+                    <li><label for="entry.desc">Description:</label><div class="input-wrapper"><textarea name="entry.desc" rows="5" cols="40"></textarea></div></li>
+                    <li class="button-bar"><input type="submit" value="Save"/> <div id="uploadButton"></div></li>
+                </ul>
+            </div>
+            <input id="pictureId" name="entry.pictureId" type="hidden" value="123"/>
+        </form>
+    </body>
+</html>

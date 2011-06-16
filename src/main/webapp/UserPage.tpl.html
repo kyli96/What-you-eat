@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>What you eat</title>
+        <link type="text/css" rel="stylesheet" href="/fileuploader.css" />
+        <link type="text/css" rel="stylesheet" href="/foodjournal.css" />
+        <script type="text/javascript" src="/js/jquery-1.6.1.min.js"></script>
+        <script type="text/javascript" src="/js/fileuploader.js"></script>
+        <script type="text/javascript" src="/js/foodjournal.js"></script>
+    </head>
+    <body>
+        <h1>What you eat<span class="user">${me.username} | <a href="${signoutUrl}">Sign out</a></span></h1>
+        <div id="header">
+            <div class="center">
+            </div>
+        </div>
+        @ShowIf(info.equals("entries"))
+        <div>
+            @EntryList(user=user)
+            <div/>
+        </div>
+    </body>
+</html>
